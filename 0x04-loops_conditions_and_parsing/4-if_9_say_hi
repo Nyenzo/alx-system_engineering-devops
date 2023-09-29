@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#This script prints Best school except at the 9th iteration where it adds Hi
+
+i=1
+while [ $i -le 10 ]
+do
+if [ $i -eq 9 ]
+then
+	echo "Best School"
+	echo "Hi"
+else
+	echo "Best School"
+fi
+i=$((i + 1))
+done

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This is a script that prints out it's own process identification card
+ps

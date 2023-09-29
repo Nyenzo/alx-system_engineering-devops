@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script shows the pid for the lines containing bash word
+ps aux | grep bash
+shellcheck disable=SC2009

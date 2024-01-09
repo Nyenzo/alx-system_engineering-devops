@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# using puppet to make config changes
-file { 'etc/ssh/ssh_config':
+# using puppet to make changes to our configuration file
+
+file { 'etc/ssh/ssh_cofig':
 	ensure => present,
 
 content =>"
@@ -10,4 +11,5 @@ content =>"
 	IdentityFile ~/.ssh/school
 	PasswordAuthentication no
 	",
-}
+
+} 

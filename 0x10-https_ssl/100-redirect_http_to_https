@@ -45,7 +45,7 @@ backend nyenzo_back_end
     balance roundrobin
     
     server 176572-web-01 100.25.211.20:80 check
-    server 176572-web-02 54.227.198.33:80  check
+    server 176572-web-02 54.227.198.33:80 check
 
 backend letsencrypt-backend
     server letsencrypt 127.0.0.1:54321
